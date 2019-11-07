@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <servlet>
+    <description></description>
+    <display-name>SendCodeServlet</display-name>
+    <servlet-name>SendCodeServlet</servlet-name>
+    <servlet-class>com.atguigu.servlet.SendCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendCodeServlet</servlet-name>
+    <url-pattern>/SendCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckCodeServlet</display-name>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <servlet-class>com.atguigu.servlet.CheckCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <url-pattern>/CheckCodeServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
